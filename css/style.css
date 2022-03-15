@@ -70,3 +70,14 @@ nav li{
 /*Added this so the links stay the same color*/
 a:visited{color:#0000FF}
 
+body {
+	font-family: "Sofia", sans-serif;
+	font-size: 30px;
+	text-shadow: 3px 3px 3px #ababab;
+  }
+
+body {
+	background-image: url("fake-tan.png");
+	background-color: #cccccc;
+   }
+
