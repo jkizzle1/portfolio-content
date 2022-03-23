@@ -1,6 +1,6 @@
 /*CSS variables to make website more cohesive.*/
 :root {
-	--font-family: "Commissioner", sans-serf;
+	--font-family: "Commissioner", sans-serif;
 	--normal-font: 400;
 	--bold-font: 700;
 	--bolder-font: 900;
@@ -17,10 +17,45 @@
 html {
 	scroll-behavior: smooth;
 }
+/* CSS Resets */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  ul {
+	list-style-type: none;
+  }
+  
+  a {
+	text-decoration: none;
+	color: var(--primary-color);
+  }
+  
+  a:hover {
+	color: var(--secondary-color);
+  }
+  
+  body {
+	font-family: var(--font-family);
+  }
 
-/*Add padding and margin to space out the page.
-Make the font larger too.*/
+nav {
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1.5rem 3.5rem;
+	background-color: var(--bg-color);
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  }
+
 body{
+	font-family: var(--font-family);
 	margin:1%;
 	padding:1%;
 	font-size:150%;
@@ -37,7 +72,6 @@ h1{
 img{
     height: 200px;
     width:200px;
-    border: 3px solid blue;
     padding: 25px;
     border-radius: 10px;
     margin: 10px;
@@ -72,6 +106,7 @@ items in the nav section*/
 
 /*Added this so the links stay the same color*/
 a:visited{color:#0000FF}
+
 
 
 
