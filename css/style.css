@@ -76,6 +76,15 @@ nav {
 	font-weight: var(--bold-font);
   }
 
+  .mobile-menu {
+	color: var(--primary-color);
+	font-size: 2rem;
+	border: 0;
+	background-color: transparent;
+	cursor: pointer;
+	display: none;
+  }
+
 body{
 	font-family: var(--font-family);
 	margin:1%;
@@ -95,7 +104,6 @@ img{
     height: 200px;
     width:200px;
     padding: 25px;
-    border-radius: 10px;
     margin: 10px;
 }
 
@@ -103,7 +111,6 @@ img{
 h2{
 	font-size: 2em; 
 	font-weight: bold;
-	border: 2px solid grey;
 	margin: 10px 0 0;
 }
 
@@ -115,7 +122,6 @@ p, h1, h2 {
 /*Add borders around the main components and some
 space too*/
 header, main, h1, footer{
-	border: 2px solid grey;
 	margin: 10px 10 10;
 }
 
