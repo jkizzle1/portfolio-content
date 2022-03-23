@@ -1,3 +1,23 @@
+/*CSS variables to make website more cohesive.*/
+:root {
+	--font-family: "Commissioner", sans-serf;
+	--normal-font: 400;
+	--bold-font: 700;
+	--bolder-font: 900;
+	--bg-color: #fcfcfc;
+	--primary-color: #4756df;
+	--secondary-color: #ff7235;
+	--primary-shadow: #8b8eaf;
+	--secondary-shadow: #a17a69;
+	--bottom-margin: 0.5rem;
+	--bottom-margin-2: 1rem;
+	--line-height: 1.7rem;
+	--transition: 0.3s;
+}
+html {
+	scroll-behavior: smooth;
+}
+
 /*Add padding and margin to space out the page.
 Make the font larger too.*/
 body{
@@ -12,16 +32,6 @@ h1{
 	font-weight: bold;
 }
 
-
-.active{
-	background: white;
-    text-transform: uppercase;
-	text-align: center;
-}
-
-.active a{
-	text-decoration: none;;
-}
 
 /*Style the images*/
 img{
@@ -48,7 +58,7 @@ p, h1, h2 {
 
 /*Add borders around the main components and some
 space too*/
-header, nav, main, h1, footer{
+header, main, h1, footer{
 	border: 2px solid grey;
 	margin: 10px 10 10;
 }
@@ -56,28 +66,13 @@ header, nav, main, h1, footer{
 
 /*Change the styling for all of the list 
 items in the nav section*/
-nav li{
-	background-color: #ECFF4D;
-	padding:10px;
-	width:25%;
-	border:1px solid black;
-	display: inline-block;
-	width: 20%;
-}
+
 
 
 
 /*Added this so the links stay the same color*/
 a:visited{color:#0000FF}
 
-body {
-	font-family: "Sofia", sans-serif;
-	font-size: 30px;
-	text-shadow: 3px 3px 3px #ababab;
-  }
 
-body {
-	background-image: url("fake-tan.png");
-	background-color: #cccccc;
-   }
+
 
