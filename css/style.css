@@ -4,7 +4,7 @@
 	--normal-font: 400;
 	--bold-font: 700;
 	--bolder-font: 900;
-	--bg-color: #F7EDDC;
+	--bg-color: white;
 	--primary-color: #164A4A;
 	--secondary-color: #6D7888 ;
 	--primary-shadow: #8b8eaf;
@@ -26,6 +26,7 @@ html {
   
   ul {
 	list-style-type: none;
+	color: var(--primary-color)
   }
   
   a {
@@ -99,8 +100,8 @@ nav {
   }
   
   .bio {
-	width: 25rem;
-	padding: 0.625rem;
+	width: 24rem;
+	padding: 0.6rem;
   }
   
   .bio h1 {
@@ -121,7 +122,7 @@ body{
 
 /*Make the h1 heading bigger with a bold font*/
 h1{
-	font-size: 2em; 
+	font-size: 1.5em; 
 	font-weight: bold;
 }
 
@@ -153,14 +154,11 @@ header, main, h1, footer{
 }
 
 
-/*Change the styling for all of the list 
-items in the nav section*/
 
 
 
-
-/*Added this so the links stay the same color*/
-a:visited{color:#0000FF}
+/*links stay the same color*/
+a:visited{color:#4d64eb}
 
 
 
