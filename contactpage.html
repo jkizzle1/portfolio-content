@@ -8,25 +8,38 @@
 	<link rel="icon" href="images/favicon.ico">
 	<link rel="stylesheet" href="css/html5reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@500&display=swap" rel="stylesheet">
 	<title>Contact Me!</title>
 </head>
 <body>
 	<header>
 		<nav>
-			<ul>
-				<li><a href = "index.html">Home</a></li>
-				<li><a href = "works.html">Works</a></li>
-				<li><a href = "leadership.html">Leadership Roles</a></li>
-				<li><a href = "interests.html">Interests</a></li>
-				<li><a href = "contactpage.html">Contact</a></li>
+			<h1>Joyce Kim</h1>
+			<ul class="navigation">
+				<!-- Since I am on the index file I added class = action to the link to index. -->
+				
+				<li><a href = "works.html" class="nav-link">Projects</a></li>
+				<li><a href = "leadership.html" class="nav-link">Leadership</a></li>
+				<li><a href = "interests.html"class="nav-link">Interests</a></li>
+				<li><a href = "contactpage.html"class="nav-link">Contact</a></li>
 			</ul>
+			<button class="mobile-menu" id="mobile-menu">
+				<ion-icon class="bars" name="menu-outline"></ion-icon>
+			</button>
 		</nav>
 		<h1>Hello there.</h1>
 	</header>
 	
 	
 	<main>
-		<i class="fa-light fa-circle-nodes"></i>
+		<div class="awesome-icon">
+			<i class="fa-light fa-circle-nodes"></i>
+
+		</div>
+		
+		
 		<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mqknlqbn" method="post">
 			<fieldset id="fs-frm-inputs">
 			  <label for="full-name">Full Name</label>

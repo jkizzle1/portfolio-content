@@ -8,58 +8,87 @@
 	<link rel="icon" href="images/favicon.ico">
 	<link rel="stylesheet" href="css/html5reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@500&display=swap" rel="stylesheet">
 	
 	<title>Hobbies & Interests</title>
 </head>
 <body>
 	<header>
 		<nav>
-			<ul>
-				<li><a href = "index.html">Home</a></li>
-				<li><a href = "works.html">Works</a></li>
-				<li><a href = "leadership.html">Leadership Roles</a></li>
-				<li><a href = "interests.html">Interests</a></li>
-				<li><a href = "contactpage.html">Contact</a></li>
+			<h1>Joyce Kim</h1>
+			<ul class="navigation">
+				<!-- Since I am on the index file I added class = action to the link to index. -->
+				
+				<li><a href = "works.html" class="nav-link">Projects</a></li>
+				<li><a href = "leadership.html" class="nav-link">Leadership</a></li>
+				<li><a href = "interests.html"class="nav-link">Interests</a></li>
+				<li><a href = "contactpage.html"class="nav-link">Contact</a></li>
 			</ul>
+			<button class="mobile-menu" id="mobile-menu">
+				<ion-icon class="bars" name="menu-outline"></ion-icon>
+			</button>
 		</nav>
-		<h1>A Peek of Who I Am</h1>
+		<h1>My Hobbies/Interests</h1>
 	</header>
 	
 	
 	<main>
-		<p> This section just highlights the things I enjoy doing in my
-			free time and who I am as a person outside of my 
-		    academic/work life! Feel free to browse what I have been up to
-			lately and what kinds of things I am interested in. </p> <br>
+		<section class="about">
+			<img src = "images/profilepic.jpg" alt="Headshot image of me" class ="interest-img"/>
+			<div class="interest">
+				<h2>More about me</h2>
+				<p>
+					This section just highlights the things I enjoy doing in my
+				free time and who I am as a person outside of my 
+				academic/work life! Feel free to browse what I have been up to
+				lately and what kinds of things I am interested in.
+				  </p>
+			</div>
+		</section>
 
-		<h3> Traveling </h3> <br>
-		<img src = "images/grandhaven.jpg" alt="Grand Haven" width="200"/>
-		<img src = "images/grandrapids.jpg" alt="Grand Rapids" width="200"/>
-		<img src = "images/chicago.jpg" alt="Chicago" width="200"/> 
-		<img src = "images/laguna.jpg" alt="Laguna Beach" width="200"/>
-		<img src = "images/larest.jpg" alt="LA Restaurant" width="200"/>
-		<img src = "images/labeach.jpg" alt="LA Beach" width="200"/> <br>
+		<div class="traveling-pics">
+			<h3> Travels </h3> 
+			<img src = "images/grandhaven.jpg" alt="Trip to Grand Haven with LiNK Board Members" width="200"/>
+			<img src = "images/grandrapids.jpg" alt="Trip to Grand Rapids with LiNK Board Members" width="200"/>
+			<img src = "images/chicago.jpg" alt="Trip to Chicago for volunteering" width="200"/> 
+			<img src = "images/laguna.jpg" alt="Picture of Laguna Beach in California" width="200"/>
+			<img src = "images/larest.jpg" alt="Malibu Farms Restaurant scenery" width="200"/>
+			<img src = "images/labeach.jpg" alt="View of Santa Monica Pier in California" width="200"/> 
 
-		<p> Every break I get during the school year, I like to travel to places 
-			with friends and family. So far, I have been to a good number of different 
-			states in the U.S. as well as the Mediterranean, Bahamas, Mexico, and the 
-			Dominican Republic. </p> <br>
+		</div>
 
-		<h3>Bean</h3>
-		<img src = "images/bean.jpg" alt="Bean" width="200"/> <br>
-		<p> This past summer, my family decided to get a puppy. Her name is Bean and she 
+		<div class="traveling-about">
+			<p> Every break I get during the school year, I like to travel to places 
+				with friends and family. So far, I have been to a good number of different 
+				states in the U.S. as well as the Mediterranean, Bahamas, Mexico, and the 
+				Dominican Republic. </p> 
+
+		</div>
+		
+		<div class="my-dog">
+			<h3>Bean</h3>
+			<img src = "images/bean.jpg" alt="A pic of my dog named Bean" width="200"/> </img>
+			<p> This past summer, my family decided to get a puppy. Her name is Bean and she 
 			will soon be one years old. I spent the summer taking care of her and training 
-			her in my free time. </p> <br>
+			her in my free time. </p> 
+		</div>
 
-		<h3>Swimming</h3>
-		<img src = "images/swim.jpg" alt="Swimming with Friends" width="200"/>
-		<img src = "images/swimm.jpg" alt="Competitive Swimming" width="200"/> 
-		<img src = "images/countychamp.jpg" alt="County Champs" width="200"/>
-		<img src = "images/statechamp.jpg" alt="State Champs" width="200"/> <br>
-		<p>I have been a competitive swimmer for thirteen years. Some notable mentions are 
+		<div class="swimming">
+			<h3>Swimming</h3>
+			<img src = "images/swim.jpg" alt="Swimming with Friends" width="200"/>
+			<img src = "images/swimm.jpg" alt="Competitive Swimming" width="200"/> 
+			<img src = "images/countychamp.jpg" alt="County Champs" width="200"/>
+			<img src = "images/statechamp.jpg" alt="State Champs" width="200"/>
+			<p>I have been a competitive swimmer for thirteen years. Some notable mentions are 
 			that I was the GA State Record Holder (Girls 9-10yo, 50 yard Backstroke), 
 			GA 7A High School State Winner (200 Medley Relay), two time GA Zone Team member, and
-			multiple first places at the GA State Championships (long course and short course). </p> <br>
+			multiple first places at the GA State Championships (long course and short course). </p>
+
+		</div>
+
+
 
 
 	</main>
