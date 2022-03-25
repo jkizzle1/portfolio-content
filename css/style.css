@@ -170,6 +170,11 @@ header, main, h1, footer{
 
 }
 
+.contact {
+	background-image: url("images/fake-tan.png");
+	background-repeat:no-repeat;
+	background-position: center center;
+	   }
 
 /*links stay the same color*/
 a:visited{color:#4d64eb}
