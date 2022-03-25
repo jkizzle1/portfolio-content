@@ -170,10 +170,12 @@ header, main, h1, footer{
 
 }
 
-.contact {
-	background-image: url("images/original.jpeg");
+.contact{
+	background-image: url("/images/original.jpeg");
 	background-repeat:no-repeat;
 	background-position: center center;
+	background-size: cover;
+	min-height: 100%;
 }
 
 .leadership{
