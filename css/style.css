@@ -163,21 +163,14 @@ header, main, h1, footer{
 	margin: 10px 10 10;
 }
 
-
-.awesome-icon {
-	color:(--primary-color);
-	height: 70%
-
-}
-
 .contact{
 	background-image: url("/images/original.jpeg");
 	background-repeat:no-repeat;
-	background-position: center center;
-	background-size: cover;
+	background-position: center;
 	height: 100vh;
 }
 .fa-solid.fa-envelope.fa-bounce{
+	color:(--primary-color);
 	--fa-bounce-start-scale-x: 1; 
 	--fa-bounce-start-scale-y: 1; 
 	--fa-bounce-jump-scale-x: 1; 
