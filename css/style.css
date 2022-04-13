@@ -41,9 +41,6 @@ html {
 	color: var(--secondary-color);
   }
   
-  body {
-	font-family: var(--font-family);
-  }
 
 nav {
 	position: sticky;
@@ -168,12 +165,16 @@ a.skip-main:focus, a.skip-main:active {
 
   a.click{
 	display: flex;
-	text-decoration: none;
-	border: 0.2px solid #164A4A;
-	color: white;
-	padding: 5px;
-	border-radius: 0.5px;
 	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	height: 100vh;
+	text-decoration: none;
+    border: 0.2px solid #000;
+    color: #000;
+    background: #e6e4e4;
+    padding: 5px;
+    border-radius: 1px;
   }
 
 
