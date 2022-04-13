@@ -78,7 +78,7 @@ nav {
 	border-bottom: 2px solid var(--secondary-color);
   }
 
-  nav a:visited{
+  nav li a:visited{
 	  border-bottom: 2px solid var(--secondary-color);
   }
   
