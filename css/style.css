@@ -77,6 +77,10 @@ nav {
 	color: var(--secondary-color);
 	border-bottom: 2px solid var(--secondary-color);
   }
+
+  nav a:visited{
+	  text-decoration: underline;
+  }
   
   nav ul {
 	display: flex;
