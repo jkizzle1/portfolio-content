@@ -158,19 +158,22 @@ a.skip-main:focus, a.skip-main:active {
   }
 
   .resume {
-	  font-size: 15px;
+	  font-family:Verdana, Geneva, Tahoma, sans-serif;
+	  font-size: 18px;
 	  display: flex;
 	  padding-top: 1rem;
 	  justify-content: center;
 	  margin: auto;
   }
 
-  .click{
+  a.click{
+	display: flex;
 	text-decoration: none;
 	border: 0.2px solid #164A4A;
 	color: white;
 	padding: 5px;
 	border-radius: 0.5px;
+	align-items: center;
   }
 
 
