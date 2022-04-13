@@ -139,15 +139,14 @@ a.skip-main:focus, a.skip-main:active {
   }
   
   .bio {
-	width: 24rem;
+	width: 28rem;
 	padding: 0.6rem;
   }
   
   .bio h2 {
 	font-family: var(--font-family);
-	font-size: 2em; 
+	font-size: 1.5em; 
 	font-weight: bold;
-	margin: 10px 0 0;
 	padding: 0.3rem 0;
 	margin-bottom: var(--bottom-margin);
   }
@@ -193,7 +192,7 @@ a.skip-main:focus, a.skip-main:active {
 
 /*Make the h1 heading bigger with a bold font*/
 h1{
-	font-size: 1.5em; 
+	font-size: 1.0em; 
 	font-weight: bold;
 }
 
@@ -206,12 +205,8 @@ img{
     margin: 10px;
 }
 
-/*Make the h2 heading match h1*/
-h2{
-	font-size: 2em; 
-	font-weight: bold;
-	margin: 10px 0 0;
-}
+
+
 
 /*Improve the spacing for paragraphs AND headings*/
 p, h1, h2 {
