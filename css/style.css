@@ -111,7 +111,7 @@ nav {
 }
 a.skip-main:focus, a.skip-main:active {
     color: #fff;
-    background-color:#000;
+    background-color:#6D7888;
     left: auto;
     top: auto;
     width: 30%;
@@ -119,10 +119,8 @@ a.skip-main:focus, a.skip-main:active {
     overflow:auto;
     margin: 10px 35%;
     padding:5px;
-    border-radius: 15px;
-    border:4px solid yellow;
     text-align:center;
-    font-size:1.2em;
+    font-size:1em;
     z-index:999;
 }
 /*index.html css*/
@@ -145,7 +143,11 @@ a.skip-main:focus, a.skip-main:active {
 	padding: 0.6rem;
   }
   
-  .bio h1 {
+  .bio h2 {
+	font-family: var(--font-family);
+	font-size: 2em; 
+	font-weight: bold;
+	margin: 10px 0 0;
 	margin-bottom: var(--bottom-margin);
   }
   
