@@ -79,7 +79,6 @@ nav {
   }
 
   nav a:visited{
-	  color: var(--secondary-color);
 	  border-bottom: 2px solid var(--secondary-color);
   }
   
@@ -215,7 +214,6 @@ header, main, h1, footer{
 /*links stay the same color*/
 a:visited{
 	color: (--primary-color);
-	text-decoration: underline;
 }
 
 
