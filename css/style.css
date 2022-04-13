@@ -75,7 +75,7 @@ nav {
 	border-bottom: 2px solid var(--secondary-color);
   }
 
-  nav li a:visited{
+  .nav-link a:visited{
 	  border-bottom: 2px solid var(--secondary-color);
   }
   
@@ -172,18 +172,12 @@ a.skip-main:focus, a.skip-main:active {
 	text-decoration: none;
     border: 0.2px solid #000;
     color: #000;
-    background: #e6e4e4;
     padding: 5px;
     border-radius: 1px;
   }
 
 
-body{
-	font-family: var(--font-family);
-	margin:1%;
-	padding:1%;
-	font-size:150%;
-}
+
 
 /*Make the h1 heading bigger with a bold font*/
 h1{
