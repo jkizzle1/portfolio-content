@@ -148,6 +148,7 @@ a.skip-main:focus, a.skip-main:active {
 	font-size: 2em; 
 	font-weight: bold;
 	margin: 10px 0 0;
+	padding: 0.3rem 0;
 	margin-bottom: var(--bottom-margin);
   }
   
@@ -165,7 +166,7 @@ a.skip-main:focus, a.skip-main:active {
 	  
   }
 
-  .click{
+  .download{
     display: flex;
     align-items: center;
     justify-content: center;
