@@ -79,7 +79,8 @@ nav {
   }
 
   nav a:visited{
-	  text-decoration: underline;
+	  color: var(--secondary-color);
+	  border-bottom: 2px solid var(--secondary-color);
   }
   
   nav ul {
