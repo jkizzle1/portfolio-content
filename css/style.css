@@ -208,7 +208,10 @@ header, main, h1, footer{
 
 
 /*links stay the same color*/
-a:visited{color: (--primary-color)}
+a:visited{
+	color: (--primary-color);
+	text-decoration: underline;
+}
 
 
 
