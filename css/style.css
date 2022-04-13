@@ -176,7 +176,12 @@ a.skip-main:focus, a.skip-main:active {
     border-radius: 1px;
   }
 
-
+  body{
+	font-family: var(--font-family);
+	margin:1%;
+	padding:1%;
+	font-size:150%;
+}
 
 
 /*Make the h1 heading bigger with a bold font*/
