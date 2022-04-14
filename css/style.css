@@ -75,6 +75,9 @@ nav {
 	border-bottom: 2px solid var(--secondary-color);
   }
 
+  nav a:visited{
+	border-bottom: 2px solid var(--secondary-color);
+  }
   .nav-link a:visited{
 	  border-bottom: 2px solid var(--secondary-color);
   }
@@ -261,7 +264,11 @@ header, main, h1, footer{
 	grid-column: 2/3;
 }
 
-
+.description{
+	font-family: 'Times New Roman', Times, serif;
+	font-size:18px;
+	margin:auto;
+}
 
 /*links stay the same color*/
 a:visited{
