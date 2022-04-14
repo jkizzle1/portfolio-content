@@ -332,14 +332,15 @@ a:visited{
 	padding:100px;
 }
 
-.parallax {
-	background-image: url('/images/parallax.jpeg');
-	height: 100%; 
+.parallax{
+	background-image: url("/images/parallax.jpeg");
+	min-height: 500px; 
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-  }
+	  }
+
 @media only screen and (max-device-width: 1366px) {
 	.parallax {
 	  background-attachment: scroll;
@@ -347,5 +348,12 @@ a:visited{
   }
 
   @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
+	.csv, .quico, .leadership, .resume, .about {
+		float: left;
+		  width: 20em;
+	  }
+	   
+	  .about {
+		  text-align: left;
+	  }
 }
