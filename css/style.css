@@ -282,6 +282,7 @@ header, main, h1, footer{
   	margin-left: auto;
   	margin-right: auto;
   	width: 50%;
+	height:400px;
 }
 /*links stay the same color*/
 a:visited{
@@ -319,5 +320,17 @@ a:visited{
 	justify-content: center;
 }
 
-
+.parallax {
+	background-image: url('/images/parallax.jpeg');
+	height: 100%; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+@media only screen and (max-device-width: 1366px) {
+	.parallax {
+	  background-attachment: scroll;
+	}
+  }
 
