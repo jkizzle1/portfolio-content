@@ -202,8 +202,6 @@ h1{
 
 /*Style the images*/
 img{
-    height: 200px;
-    width:200px;
     padding: 25px;
     margin: 10px;
 }
@@ -213,7 +211,7 @@ img{
 
 /*Improve the spacing for paragraphs AND headings*/
 p, h1, h2 {
-    padding: 10px;
+    padding: 50px;
 }
 
 /*Add borders around the main components and some
@@ -276,12 +274,34 @@ header, main, h1, footer{
 .quico p {
 	font-family:var(--font-family);
 	font-size: 16px;
+	padding: 1rem;
 }
 /*links stay the same color*/
 a:visited{
 	color: (--primary-color);
 }
 
+.project-pics img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.animation {
+	width: 800px;
+	height: 50px;
+	background-color: tan;
+	animation-name: rectangle;
+	animation-duration: 4s;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  @keyframes rectangle {
+	from {background-color: rgb(255, 228, 194);}
+	to {background-color: rgb(11, 63, 11);}
+  }
 
 
 
