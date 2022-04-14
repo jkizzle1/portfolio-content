@@ -274,15 +274,21 @@ header, main, h1, footer{
 }
 .quico p {
 	font-family:var(--font-family);
-	font-size: 12px;
-	padding: 1rem;
+	font-size: 16px;
+	padding: 6rem;
 }
 .quico img{
-	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
   	margin-left: auto;
   	margin-right: auto;
   	width: 50%;
-	height:400px;
+	height:900px;
+}
+.quico ul{
+	font-family:var(--font-family);
+	font-size:15px;
 }
 /*links stay the same color*/
 a:visited{
@@ -312,12 +318,18 @@ a:visited{
 
   .csv p{
 	  font-family: var(--font-family);
-	  font-size:14px;
+	  font-size:16px;
+	  padding:6rem;
   }
   
   .csv h6{
 	display: flex;
 	justify-content: center;
+	padding-top:400px;
+}
+.csv ul{
+	font-family:var(--font-family);
+	font-size:15px;
 }
 
 .parallax {
