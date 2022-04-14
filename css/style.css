@@ -284,7 +284,6 @@ header, main, h1, footer{
   	margin-left: auto;
   	margin-right: auto;
   	width: 50%;
-	height:900px;
 }
 .quico ul{
 	font-family:var(--font-family);
@@ -325,11 +324,12 @@ a:visited{
   .csv h6{
 	display: flex;
 	justify-content: center;
-	padding-top:400px;
+	padding-top:150px;
 }
 .csv ul{
 	font-family:var(--font-family);
 	font-size:15px;
+	padding:100px;
 }
 
 .parallax {
