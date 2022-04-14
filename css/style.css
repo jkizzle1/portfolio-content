@@ -269,7 +269,14 @@ header, main, h1, footer{
 	font-size:18px;
 	margin:auto;
 }
-
+.quico h6{
+	display: flex;
+	justify-content: center;
+}
+.quico p {
+	font-family:var(--font-family);
+	font-size: 16px;
+}
 /*links stay the same color*/
 a:visited{
 	color: (--primary-color);
